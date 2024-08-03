@@ -1,0 +1,116 @@
+2024-07-31 18:56:37.940 [info] Experiment 'pythonaacf' is active
+2024-07-31 18:56:37.940 [info] Experiment 'pythonCreateEnvOnPipInstall' is active
+2024-07-31 18:56:37.940 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-07-31 18:56:37.940 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-07-31 18:56:37.940 [info] Experiment 'pythonTestAdapter' is active
+2024-07-31 18:56:37.940 [error] Reading directory to watch failed [Error: ENOENT: no such file or directory, scandir '/home/ubuntu/.pixi/envs'
+	at Object.readdirSync (node:fs:1515:26)
+	at /home/ubuntu/.vscode-server/extensions/ms-python.python-2024.10.0-linux-x64/out/client/extension.js:2:574598
+	at /home/ubuntu/.vscode-server/extensions/ms-python.python-2024.10.0-linux-x64/out/client/extension.js:2:574789
+	at Array.map (<anonymous>)
+	at d.initWatchers (/home/ubuntu/.vscode-server/extensions/ms-python.python-2024.10.0-linux-x64/out/client/extension.js:2:574507)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async d.ensureWatchersReady (/home/ubuntu/.vscode-server/extensions/ms-python.python-2024.10.0-linux-x64/out/client/extension.js:2:536827)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/ubuntu/.pixi/envs'
+}
+2024-07-31 18:56:37.940 [error] Dir "/home/ubuntu/.pixi/envs" is not watchable (directory does not exist)
+2024-07-31 18:56:38.652 [info] Default formatter is set to null for workspace /home/ubuntu
+2024-07-31 18:56:38.664 [info] Starting Environment refresh
+2024-07-31 18:56:38.664 [info] Searching for interpreters in posix paths locator
+2024-07-31 18:56:38.672 [info] Searching for pyenv environments
+2024-07-31 18:56:38.672 [info] Searching for conda environments
+2024-07-31 18:56:38.672 [info] Searching for global virtual environments
+2024-07-31 18:56:38.672 [info] Searching for custom virtual environments
+2024-07-31 18:56:39.205 [info] pyenv is not installed
+2024-07-31 18:56:39.205 [info] Finished searching for pyenv environments: 540 milliseconds
+2024-07-31 18:56:39.206 [info] Finished searching for custom virtual envs: 539 milliseconds
+2024-07-31 18:56:39.211 [info] > conda info --json
+2024-07-31 18:56:39.216 [info] > pixi --version
+2024-07-31 18:56:39.216 [error] [Error: spawn pixi ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+	at onErrorNT (node:internal/child_process:484:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn pixi',
+  path: 'pixi',
+  spawnargs: [ '--version' ]
+}
+2024-07-31 18:56:39.219 [info] > hatch env show --json
+2024-07-31 18:56:39.219 [info] cwd: .
+2024-07-31 18:56:39.230 [info] > pyenv which python
+2024-07-31 18:56:39.230 [info] cwd: .
+2024-07-31 18:56:39.231 [info] Finished searching for global virtual envs: 564 milliseconds
+2024-07-31 18:56:39.236 [info] Found: /bin/python3 --> /bin/python3.12
+2024-07-31 18:56:39.237 [info] Found: /bin/python3.12 --> /bin/python3.12
+2024-07-31 18:56:39.247 [info] Found: /usr/bin/python3 --> /usr/bin/python3.12
+2024-07-31 18:56:39.247 [info] Found: /usr/bin/python3.12 --> /usr/bin/python3.12
+2024-07-31 18:56:39.266 [info] > ./airflow-venv/bin/python -I ./.vscode-server/extensions/ms-python.python-2024.10.0-linux-x64/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.10.0-linux-x64/python_files/interpreterInfo.py
+2024-07-31 18:56:39.282 [info] Finished searching for interpreters in posix paths locator: 615 milliseconds
+2024-07-31 18:56:39.282 [info] > /bin/python3 -I ./.vscode-server/extensions/ms-python.python-2024.10.0-linux-x64/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.10.0-linux-x64/python_files/interpreterInfo.py
+2024-07-31 18:56:39.287 [info] Environments refresh paths discovered (event): 624 milliseconds
+2024-07-31 18:56:39.287 [info] Environments refresh paths discovered: 625 milliseconds
+2024-07-31 18:56:39.320 [info] > /usr/bin/python3 -I ./.vscode-server/extensions/ms-python.python-2024.10.0-linux-x64/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.10.0-linux-x64/python_files/interpreterInfo.py
+2024-07-31 18:56:39.365 [info] Environments refresh finished (event): 702 milliseconds
+2024-07-31 18:56:39.376 [info] Environment refresh took 715 milliseconds
+2024-07-31 18:56:39.379 [warning] could not find a pixi interpreter for the interpreter at /home/ubuntu/airflow-venv/bin/python
+2024-07-31 18:56:39.384 [info] Python interpreter path: ./airflow-venv/bin/python
+2024-07-31 18:56:41.653 [info] Shell integration status changed, can confirm it's working.
+2024-07-31 18:56:41.654 [warning] could not find a pixi interpreter for the interpreter at /home/ubuntu/airflow-venv/bin/python
+2024-07-31 18:56:41.961 [warning] could not find a pixi interpreter for the interpreter at /home/ubuntu/airflow-venv/bin/python
+2024-07-31 18:56:42.128 [info] > . ./airflow-venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ./.vscode-server/extensions/ms-python.python-2024.10.0-linux-x64/python_files/printEnvVariables.py
+2024-07-31 18:56:42.128 [info] shell: bash
+2024-07-31 18:56:42.164 [info] > /bin/python3 ./.vscode-server/extensions/ms-python.python-2024.10.0-linux-x64/python_files/printEnvVariables.py
+2024-07-31 18:56:42.164 [info] shell: bash
+2024-07-31 18:56:42.200 [info] Setting environment variable VIRTUAL_ENV in collection to /home/ubuntu/airflow-venv {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-07-31 18:56:42.200 [info] Setting environment variable VIRTUAL_ENV_PROMPT in collection to (airflow-venv)  {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-07-31 18:56:42.200 [info] Prepending environment variable PS1 in collection with (airflow-venv)  {"applyAtShellIntegration":true,"applyAtProcessCreation":false}
+2024-07-31 18:56:42.200 [info] Prepending environment variable PATH in collection with /home/ubuntu/.vscode-server/extensions/ms-python.python-2024.10.0-linux-x64/python_files/deactivate/bash:/home/ubuntu/airflow-venv/bin: {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-07-31 18:56:42.201 [info] Send text to terminal: /bin/python3 /home/ubuntu/.vscode-server/extensions/ms-python.python-2024.10.0-linux-x64/python_files/printEnvVariablesToFile.py /home/ubuntu/.vscode-server/extensions/ms-python.python-2024.10.0-linux-x64/python_files/deactivate/bash/envVars.txt
+2024-07-31 18:56:42.414 [info] > . ./airflow-venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ./.vscode-server/extensions/ms-python.python-2024.10.0-linux-x64/python_files/printEnvVariables.py
+2024-07-31 18:56:42.414 [info] shell: bash
+2024-07-31 18:56:42.452 [info] Setting environment variable VIRTUAL_ENV in collection to /home/ubuntu/airflow-venv {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-07-31 18:56:42.452 [info] Setting environment variable VIRTUAL_ENV_PROMPT in collection to (airflow-venv)  {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-07-31 18:56:42.453 [info] Prepending environment variable PS1 in collection with (airflow-venv)  {"applyAtShellIntegration":true,"applyAtProcessCreation":false}
+2024-07-31 18:56:42.453 [info] Prepending environment variable PATH in collection with /home/ubuntu/.vscode-server/extensions/ms-python.python-2024.10.0-linux-x64/python_files/deactivate/bash:/home/ubuntu/airflow-venv/bin: {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-07-31 18:56:43.081 [info] Starting Pylance language server.
+2024-07-31 18:57:00.344 [info] Discover tests for workspace name: ubuntu - uri: /home/ubuntu/airflow/dags/weather_dags.py
+2024-07-31 18:57:02.829 [info] Discover tests for workspace name: ubuntu - uri: /home/ubuntu/airflow/dags/weather_dags.py
+2024-07-31 18:59:21.827 [info] Discover tests for workspace name: ubuntu - uri: /home/ubuntu/airflow/dags/weather_dags.py
+2024-07-31 19:00:13.379 [info] Discover tests for workspace name: ubuntu - uri: /home/ubuntu/airflow/dags/weather_dags.py
+2024-07-31 19:03:00.904 [info] Discover tests for workspace name: ubuntu - uri: /home/ubuntu/airflow/dags/weather_dags.py
+2024-07-31 19:06:21.025 [info] Discover tests for workspace name: ubuntu - uri: /home/ubuntu/airflow/dags/weather_dags.py
+2024-07-31 19:06:53.779 [info] Discover tests for workspace name: ubuntu - uri: /home/ubuntu/airflow/dags/weather_dags.py
+2024-07-31 19:07:07.339 [info] Discover tests for workspace name: ubuntu - uri: /home/ubuntu/airflow/dags/weather_dags.py
+2024-07-31 19:07:17.172 [info] Discover tests for workspace name: ubuntu - uri: /home/ubuntu/airflow/dags/weather_dags.py
+2024-07-31 19:08:16.978 [info] Discover tests for workspace name: ubuntu - uri: /home/ubuntu/airflow/dags/weather_dags.py
+2024-07-31 19:09:48.252 [info] Discover tests for workspace name: ubuntu - uri: /home/ubuntu/airflow/dags/weather_dags.py
+2024-07-31 19:09:53.657 [info] Discover tests for workspace name: ubuntu - uri: /home/ubuntu/airflow/dags/weather_dags.py
+2024-07-31 19:09:58.017 [info] Discover tests for workspace name: ubuntu - uri: /home/ubuntu/airflow/dags/weather_dags.py
+2024-07-31 19:10:01.997 [info] Discover tests for workspace name: ubuntu - uri: /home/ubuntu/airflow/dags/weather_dags.py
+2024-07-31 19:10:31.061 [info] Discover tests for workspace name: ubuntu - uri: /home/ubuntu/airflow/dags/weather_dags.py
+2024-07-31 19:10:48.442 [info] Discover tests for workspace name: ubuntu - uri: /home/ubuntu/airflow/dags/weather_dags.py
+2024-07-31 19:11:11.296 [info] Discover tests for workspace name: ubuntu - uri: /home/ubuntu/airflow/dags/weather_dags.py
+2024-07-31 19:11:17.337 [info] Discover tests for workspace name: ubuntu - uri: /home/ubuntu/airflow/dags/weather_dags.py
+2024-07-31 19:11:22.396 [info] Discover tests for workspace name: ubuntu - uri: /home/ubuntu/airflow/dags/weather_dags.py
+2024-07-31 19:11:35.461 [info] Discover tests for workspace name: ubuntu - uri: /home/ubuntu/airflow/dags/weather_dags.py
+2024-07-31 19:11:58.056 [info] Discover tests for workspace name: ubuntu - uri: /home/ubuntu/airflow/dags/weather_dags.py
+2024-07-31 19:12:15.097 [info] Discover tests for workspace name: ubuntu - uri: /home/ubuntu/airflow/dags/weather_dags.py
+2024-07-31 19:12:58.137 [info] Discover tests for workspace name: ubuntu - uri: /home/ubuntu/airflow/dags/weather_dags.py
+2024-07-31 19:13:06.031 [info] Discover tests for workspace name: ubuntu - uri: /home/ubuntu/airflow/dags/weather_dags.py
+2024-07-31 19:13:39.492 [info] Discover tests for workspace name: ubuntu - uri: /home/ubuntu/airflow/dags/weather_dags.py
+2024-07-31 19:13:44.095 [info] Discover tests for workspace name: ubuntu - uri: /home/ubuntu/airflow/dags/weather_dags.py
+2024-07-31 19:20:46.016 [info] Discover tests for workspace name: ubuntu - uri: /home/ubuntu/airflow/dags/weather_dags.py
+2024-07-31 19:20:53.371 [info] Discover tests for workspace name: ubuntu - uri: /home/ubuntu/airflow/dags/weather_dags.py
+2024-07-31 19:20:58.496 [info] Discover tests for workspace name: ubuntu - uri: /home/ubuntu/airflow/dags/weather_dags.py
+2024-07-31 19:21:07.481 [info] Discover tests for workspace name: ubuntu - uri: /home/ubuntu/airflow/dags/weather_dags.py
+2024-07-31 19:21:29.262 [info] Discover tests for workspace name: ubuntu - uri: /home/ubuntu/airflow/dags/weather_dags.py
+2024-07-31 19:21:52.808 [info] Discover tests for workspace name: ubuntu - uri: /home/ubuntu/airflow/dags/weather_dags.py
+2024-07-31 19:22:04.177 [info] Discover tests for workspace name: ubuntu - uri: /home/ubuntu/airflow/dags/weather_dags.py
+2024-07-31 19:23:26.862 [info] Discover tests for workspace name: ubuntu - uri: /home/ubuntu/airflow/dags/weather_dags.py
+2024-07-31 19:24:42.976 [info] Discover tests for workspace name: ubuntu - uri: /home/ubuntu/airflow/dags/weather_dags.py
+2024-07-31 19:25:52.217 [info] Discover tests for workspace name: ubuntu - uri: /home/ubuntu/airflow/dags/weather_dags.py
+2024-07-31 19:31:26.136 [info] Discover tests for workspace name: ubuntu - uri: /home/ubuntu/airflow/dags/weather_dags.py

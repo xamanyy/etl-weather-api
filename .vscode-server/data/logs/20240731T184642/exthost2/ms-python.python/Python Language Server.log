@@ -1,0 +1,35 @@
+2024-07-31 18:56:42.424 [info] (Client) Pylance async client (2024.7.1) started with python extension (2024.10.0)
+2024-07-31 18:56:43.046 [info] [Info  - 6:56:43 PM] (4919) Server root directory: file:///home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2024.7.1/dist
+2024-07-31 18:56:43.046 [info] [Info  - 6:56:43 PM] (4919) Experimental Pylance language server 2024.7.1 (pyright version 1.1.369, commit 1168be71) starting
+2024-07-31 18:56:43.048 [info] [Info  - 6:56:43 PM] (4919) Starting service instance "ubuntu"
+2024-07-31 18:56:43.120 [info] [Info  - 6:56:43 PM] (4919) Setting pythonPath for service "ubuntu": "/home/ubuntu/airflow-venv/bin/python"
+2024-07-31 18:56:43.122 [info] [Info  - 6:56:43 PM] (4919) Setting environmentName for service "ubuntu": "3.12.3 (airflow-venv venv)"
+2024-07-31 18:56:43.122 [info] [Info  - 6:56:43 PM] (4919) No include entries specified; assuming /home/ubuntu
+2024-07-31 18:56:43.123 [info] [Info  - 6:56:43 PM] (4919) Auto-excluding **/node_modules
+2024-07-31 18:56:43.123 [info] [Info  - 6:56:43 PM] (4919) Auto-excluding **/__pycache__
+2024-07-31 18:56:43.124 [info] [Info  - 6:56:43 PM] (4919) Auto-excluding **/.*
+2024-07-31 18:56:43.158 [info] [Info  - 6:56:43 PM] (4919) Assuming Python version 3.12.3.final.0
+2024-07-31 18:56:43.267 [info] [Info  - 6:56:43 PM] (4919) Auto-excluding /home/ubuntu/airflow-venv
+2024-07-31 18:56:43.272 [info] [Info  - 6:56:43 PM] (4919) Found 2 source files
+2024-07-31 18:56:44.436 [info] [Info  - 6:56:44 PM] (4919) Background analysis(1) root directory: file:///home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2024.7.1/dist
+2024-07-31 18:56:44.436 [info] [Info  - 6:56:44 PM] (4919) Background analysis(1) started
+2024-07-31 18:56:44.446 [info] [Info  - 6:56:44 PM] (4919) Indexer background runner(2) root directory: file:///home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2024.7.1/dist (index)
+2024-07-31 18:56:44.446 [info] [Info  - 6:56:44 PM] (4919) Indexing(2) started
+2024-07-31 18:56:45.702 [info] [Info  - 6:56:45 PM] (4919) Starting service instance "<default>"
+2024-07-31 18:56:45.754 [info] [Info  - 6:56:45 PM] (4919) Setting pythonPath for service "<default>": "/home/ubuntu/airflow-venv/bin/python"
+2024-07-31 18:56:45.754 [info] [Info  - 6:56:45 PM] (4919) Setting environmentName for service "<default>": "3.12.3 (airflow-venv venv)"
+2024-07-31 18:56:45.754 [info] [Info  - 6:56:45 PM] (4919) No include entries specified; assuming /<default workspace root>
+2024-07-31 18:56:45.760 [info] [Info  - 6:56:45 PM] (4919) Auto-excluding **/node_modules
+2024-07-31 18:56:45.760 [info] [Info  - 6:56:45 PM] (4919) Auto-excluding **/__pycache__
+2024-07-31 18:56:45.760 [info] [Info  - 6:56:45 PM] (4919) Auto-excluding **/.*
+2024-07-31 18:56:45.888 [info] [Info  - 6:56:45 PM] (4919) Assuming Python version 3.12.3.final.0
+2024-07-31 18:56:46.111 [info] [Error - 6:56:46 PM] (4919) File or directory "/<default workspace root>" does not exist.
+2024-07-31 18:56:46.111 [info] [Info  - 6:56:46 PM] (4919) No source files found.
+2024-07-31 18:56:46.411 [info] [Info  - 6:56:46 PM] (4919) scanned(2) 154 files over 1 exec env
+2024-07-31 18:56:47.253 [info] [Info  - 6:56:47 PM] (4919) Background analysis(3) root directory: file:///home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2024.7.1/dist
+2024-07-31 18:56:47.253 [info] [Info  - 6:56:47 PM] (4919) Background analysis(3) started
+2024-07-31 18:56:51.477 [info] [Info  - 6:56:51 PM] (4919) [BG(1)] Long operation: SemanticTokens full at file:///home/ubuntu/airflow/dags/weather_dags.py (6477ms)
+2024-07-31 18:56:53.393 [info] [Info  - 6:56:53 PM] (4919) [IDX(2)] Long operation: index execution environment file:///home/ubuntu (5837ms)
+2024-07-31 18:56:53.393 [info] [Info  - 6:56:53 PM] (4919) [IDX(2)] Long operation: index packages file:///home/ubuntu (5873ms)
+2024-07-31 18:56:53.393 [info] [Info  - 6:56:53 PM] (4919) indexed(2) 127 files over 1 exec env
+2024-07-31 18:56:53.533 [info] [Info  - 6:56:53 PM] (4919) Indexing finished(2).

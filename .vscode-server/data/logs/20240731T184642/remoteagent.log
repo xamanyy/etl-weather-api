@@ -1,0 +1,38 @@
+2024-07-31 18:46:42.477 [info] 
+
+
+
+
+2024-07-31 18:46:42.493 [info] Extension host agent started.
+2024-07-31 18:46:42.565 [info] Started initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.vscode-server/extensions
+2024-07-31 18:46:42.584 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.vscode-server/extensions
+2024-07-31 18:46:42.969 [info] [<unknown>][7ba803c2][ManagementConnection] New connection established.
+2024-07-31 18:46:42.971 [info] [<unknown>][c118f6c2][ExtensionHostConnection] New connection established.
+2024-07-31 18:46:43.060 [info] [<unknown>][c118f6c2][ExtensionHostConnection] <3844> Launched Extension Host Process.
+2024-07-31 18:47:59.046 [info] [<unknown>][12ea41ee][ManagementConnection] New connection established.
+2024-07-31 18:47:59.052 [info] [<unknown>][2ca8eadb][ExtensionHostConnection] New connection established.
+2024-07-31 18:47:59.057 [info] [<unknown>][2ca8eadb][ExtensionHostConnection] <4073> Launched Extension Host Process.
+2024-07-31 18:48:19.644 [info] [<unknown>][7ba803c2][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-07-31 18:51:42.495 [info] New EH opened, aborting shutdown
+2024-07-31 18:51:42.497 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/server/node/server.main.js:192:6383)
+    at process.emit (node:events:518:28)
+2024-07-31 18:52:59.209 [info] [<unknown>][c118f6c2][ExtensionHostConnection] <3844> Extension Host Process exited with code: 0, signal: null.
+2024-07-31 18:56:21.736 [info] Getting Manifest... ms-python.python
+2024-07-31 18:56:21.766 [info] Installing extension: ms-python.python {"isMachineScoped":false,"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/ubuntu/.vscode-server/extensions/extensions.json","external":"file:///home/ubuntu/.vscode-server/extensions/extensions.json","path":"/home/ubuntu/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.91.1","date":"2024-07-09T22:08:48.553Z"}}
+2024-07-31 18:56:22.586 [info] Getting Manifest... ms-python.vscode-pylance
+2024-07-31 18:56:22.594 [info] Getting Manifest... ms-python.debugpy
+2024-07-31 18:56:22.618 [info] Installing extension: ms-python.vscode-pylance {"isMachineScoped":false,"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/ubuntu/.vscode-server/extensions/extensions.json","external":"file:///home/ubuntu/.vscode-server/extensions/extensions.json","path":"/home/ubuntu/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.91.1","date":"2024-07-09T22:08:48.553Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2024-07-31 18:56:22.618 [info] Installing extension: ms-python.debugpy {"isMachineScoped":false,"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/ubuntu/.vscode-server/extensions/extensions.json","external":"file:///home/ubuntu/.vscode-server/extensions/extensions.json","path":"/home/ubuntu/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.91.1","date":"2024-07-09T22:08:48.553Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2024-07-31 18:56:25.634 [info] Extension signature verification result for ms-python.debugpy: Success. Executed: true. Duration: 2449ms.
+2024-07-31 18:56:25.712 [info] Extension signature verification result for ms-python.python: Success. Executed: true. Duration: 2605ms.
+2024-07-31 18:56:27.485 [info] Extracted extension to file:///home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2024.8.0-linux-x64: ms-python.debugpy
+2024-07-31 18:56:27.503 [info] Renamed to /home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2024.8.0-linux-x64
+2024-07-31 18:56:28.380 [info] Extension signature verification result for ms-python.vscode-pylance: Success. Executed: true. Duration: 2367ms.
+2024-07-31 18:56:29.300 [info] Extracted extension to file:///home/ubuntu/.vscode-server/extensions/ms-python.python-2024.10.0-linux-x64: ms-python.python
+2024-07-31 18:56:29.320 [info] Renamed to /home/ubuntu/.vscode-server/extensions/ms-python.python-2024.10.0-linux-x64
+2024-07-31 18:56:36.246 [info] Extracted extension to file:///home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2024.7.1: ms-python.vscode-pylance
+2024-07-31 18:56:36.258 [info] Renamed to /home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2024.7.1
+2024-07-31 18:56:36.291 [info] Extension installed successfully: ms-python.debugpy file:///home/ubuntu/.vscode-server/extensions/extensions.json
+2024-07-31 18:56:36.291 [info] Extension installed successfully: ms-python.python file:///home/ubuntu/.vscode-server/extensions/extensions.json
+2024-07-31 18:56:36.291 [info] Extension installed successfully: ms-python.vscode-pylance file:///home/ubuntu/.vscode-server/extensions/extensions.json

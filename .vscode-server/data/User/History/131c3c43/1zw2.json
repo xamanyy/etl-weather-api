@@ -1,0 +1,7 @@
+{
+    "tabnine.experimentalAutoImports": true,
+    "workbench.iconTheme": "vscode-icons",
+    "remote.SSH.remotePlatform": {
+        "weather": "linux"
+    }
+}
