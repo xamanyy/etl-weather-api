@@ -214,3 +214,27 @@ fatal: no email was given and auto-detection is disabled
 2024-08-03 09:12:48.626 [info] > git ls-files --stage -- /home/ubuntu/airflow/dags/weather_dags.py [14ms]
 2024-08-03 09:12:48.632 [info] > git cat-file -s 69777f9741be5c3c38dad8ff06dcc8591395331e [2ms]
 2024-08-03 09:12:48.866 [info] > git show --textconv :airflow/dags/weather_dags.py [14ms]
+2024-08-03 09:12:57.636 [info] > git ls-files --stage -- /home/ubuntu/airflow/dags/weather_dags.py [13ms]
+2024-08-03 09:12:57.643 [info] > git cat-file -s 69777f9741be5c3c38dad8ff06dcc8591395331e [1ms]
+2024-08-03 09:12:57.960 [info] > git show --textconv :airflow/dags/weather_dags.py [15ms]
+2024-08-03 09:13:27.676 [info] > git config --get commit.template [9ms]
+2024-08-03 09:13:27.682 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-08-03 09:13:27.940 [info] > git status -z -uall [249ms]
+2024-08-03 09:13:28.020 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [68ms]
+2024-08-03 09:13:28.033 [info] > git config --local branch.main.vscode-merge-base [4ms]
+2024-08-03 09:13:28.034 [warning] [Git][config] git config failed: Failed to execute git
+2024-08-03 09:13:28.138 [info] > git reflog main --grep-reflog=branch: Created from *. [97ms]
+2024-08-03 09:13:28.164 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [15ms]
+2024-08-03 09:13:28.164 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-08-03 09:13:29.152 [info] > git ls-files --stage -- /home/ubuntu/airflow/dags/weather_dags.py [14ms]
+2024-08-03 09:13:29.158 [info] > git cat-file -s 69777f9741be5c3c38dad8ff06dcc8591395331e [1ms]
+2024-08-03 09:13:29.486 [info] > git show --textconv :airflow/dags/weather_dags.py [22ms]
+2024-08-03 09:13:33.657 [info] > git config --get commit.template [2ms]
+2024-08-03 09:13:33.663 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-08-03 09:13:33.810 [info] > git status -z -uall [142ms]
+2024-08-03 09:13:33.821 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-08-03 09:13:33.827 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-08-03 09:13:33.828 [warning] [Git][config] git config failed: Failed to execute git
+2024-08-03 09:13:33.833 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-08-03 09:13:33.839 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-08-03 09:13:33.839 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref

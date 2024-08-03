@@ -418,3 +418,10 @@
 [2024-08-03T09:12:34.824+0000] {logging_mixin.py:188} INFO - [2024-08-03T09:12:34.824+0000] {dag.py:3089} INFO - Sync 1 DAGs
 [2024-08-03T09:12:34.974+0000] {logging_mixin.py:188} INFO - [2024-08-03T09:12:34.973+0000] {dag.py:3947} INFO - Setting next_dagrun for weather-app to 2024-08-03 00:00:00+00:00, run_after=2024-08-04 00:00:00+00:00
 [2024-08-03T09:12:34.996+0000] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/weather_dags.py took 0.530 seconds
+[2024-08-03T09:13:19.081+0000] {processor.py:161} INFO - Started process (PID=8535) to work on /home/ubuntu/airflow/dags/weather_dags.py
+[2024-08-03T09:13:19.083+0000] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/weather_dags.py for tasks to queue
+[2024-08-03T09:13:19.085+0000] {logging_mixin.py:188} INFO - [2024-08-03T09:13:19.084+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/weather_dags.py
+[2024-08-03T09:13:19.500+0000] {processor.py:840} INFO - DAG(s) 'weather-app' retrieved from /home/ubuntu/airflow/dags/weather_dags.py
+[2024-08-03T09:13:19.517+0000] {logging_mixin.py:188} INFO - [2024-08-03T09:13:19.517+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-03T09:13:19.539+0000] {logging_mixin.py:188} INFO - [2024-08-03T09:13:19.539+0000] {dag.py:3947} INFO - Setting next_dagrun for weather-app to 2024-08-03 00:00:00+00:00, run_after=2024-08-04 00:00:00+00:00
+[2024-08-03T09:13:19.572+0000] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/weather_dags.py took 0.499 seconds

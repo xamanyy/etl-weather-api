@@ -160,3 +160,4 @@
 	at async T.getBranchBase (/home/ubuntu/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
 	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/ubuntu/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
 	at async t.GitHistoryProvider.onDidRunGitStatus (/home/ubuntu/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-03 09:13:27.985 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10033
